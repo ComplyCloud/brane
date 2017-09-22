@@ -6,6 +6,9 @@
   "repository": "https://github.com/complycloud/brane",
   "author": "Sean Bruton <sean@sean.cloud>",
   "license": "MIT",
+  "bin": {
+    "brane": "src/brane-cli.js"
+  },
   "scripts": {
     "check": "yarn lint && yarn test",
     "lint": "eslint src test",
@@ -41,5 +44,14 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "ajv": "^5.2.2",
+    "debug": "^3.0.1",
+    "dependency-graph": "^0.5.0",
+    "glob-promise": "^3.2.0",
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0",
+    "verror": "^1.10.0"
   }
 }
