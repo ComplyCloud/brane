@@ -4,9 +4,10 @@
 # test
 /coverage/
 
-# npm
+# npm / yarn
 /node_modules/
 /npm-debug.log
+/yarn-error.log
 
 # macOS
 .DS_Store
