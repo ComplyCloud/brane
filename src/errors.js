@@ -12,3 +12,7 @@ export class InvalidPayload extends BadRequest { }
 export class Conflict extends BraneError {
   get statusCode() { return 409; }
 }
+
+export class NotFound extends BraneError {
+  get statusCode() { return 404; }
+}

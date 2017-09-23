@@ -7,6 +7,7 @@ export default class Event {
       this[propertyName] = payload[propertyName];
     });
     this.id = uuid();
+    this.timestamp = new Date();
   }
 
   get dependencies() { return []; }
